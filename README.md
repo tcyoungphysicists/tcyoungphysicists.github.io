@@ -1,5 +1,3 @@
-# Tri-Chandra Young Physicists (TCPY)
-
 Welcome to the official website of the Tri-Chandra Young Physicists.
 
 ## About Us
@@ -17,3 +15,4 @@ We are a community of passionate physics students and enthusiasts from Tri-Chand
 
 - Email: [tcyoungphysicists@gmail.com](tcyoungphysicists@gmail.com)
 - GitHub: [github.com/tcyoungphysicists](https://github.com/tcyoungphysicists)
+- Facebook: [fb.com/tcyoungphysicists](https://facebook.com/tcyoungphysicists)
