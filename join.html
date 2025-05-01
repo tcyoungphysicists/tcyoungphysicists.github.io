@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join Tri-Chandra Young Physicists (TCYP) and become part of our vibrant physics community">
+    <title>Join TCYP - Tri-Chandra Young Physicists</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="assets/images/TCYP-logo.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Tri-Chandra Young Physicists - TCYP logo.svg" alt="TCYP Logo">
+                </a>
+            </div>
+            <button class="mobile-menu-button" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="join.html" class="current-page">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Join TCYP</h1>
+                <p>Become part of our dynamic physics community</p>
+            </div>
+        </section>
+
+        <section class="membership-benefits fade-in-up">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Why Join TCYP?</h2>
+                    <p>Discover the benefits of being a TCYP member</p>
+                </div>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <i class="fas fa-network-wired"></i>
+                        <h3>Network & Collaborate</h3>
+                        <p>Connect with fellow physics enthusiasts, researchers, and professionals</p>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Access Resources</h3>
+                        <p>Get access to research materials, training programs, and computational tools</p>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fas fa-globe-asia"></i>
+                        <h3>International Exposure</h3>
+                        <p>Participate in IAPS events and connect with physics students worldwide</p>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Recognition</h3>
+                        <p>Get certificates for participation and contributions to TCYP activities</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="membership-form fade-in-up">
+            <div class="container">
+                <div class="join-form-wrapper">
+                    <h2>Membership Application</h2>
+                    <form id="join-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="fullName">Full Name *</label>
+                            <input type="text" id="fullName" name="fullName" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="institution">Institution *</label>
+                            <input type="text" id="institution" name="institution" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="degree">Current Degree/Year *</label>
+                                <select id="degree" name="degree" required>
+                                    <option value="">Select your degree</option>
+                                    <option value="BSc">BSc Physics</option>
+                                    <option value="MSc">MSc Physics</option>
+                                    <option value="PhD">PhD Physics</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="year">Academic Year *</label>
+                                <select id="year" name="year" required>
+                                    <option value="">Select year</option>
+                                    <option value="1">First Year</option>
+                                    <option value="2">Second Year</option>
+                                    <option value="3">Third Year</option>
+                                    <option value="4">Fourth Year</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="interests">Research Interests</label>
+                            <textarea id="interests" name="interests" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="expectations">What do you expect from TCYP?</label>
+                            <textarea id="expectations" name="expectations" rows="3"></textarea>
+                        </div>
+                        <div class="form-group terms-checkbox">
+                            <input type="checkbox" id="terms" name="terms" required>
+                            <label for="terms">I agree to TCYP's terms and conditions and will abide by the organization's code of conduct *</label>
+                        </div>
+                        <button type="submit" class="submit-button">Submit Application</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="membership-process fade-in-up">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Membership Process</h2>
+                    <p>What happens after you apply?</p>
+                </div>
+                <div class="process-timeline">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <h3>Application Review</h3>
+                        <p>We review your application within 3-5 working days</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <h3>Confirmation Email</h3>
+                        <p>Receive membership confirmation and welcome package</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <h3>Orientation</h3>
+                        <p>Attend our new member orientation session</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <h3>Get Involved</h3>
+                        <p>Start participating in TCYP activities and events</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="Tri-Chandra Young Physicists - TCYP logo.svg" alt="TCYP Logo">
+                <div class="footer-description">
+                    Fostering a passion for physics and scientific research among students in Nepal since 2025.
+                </div>
+                <div class="footer-social">
+                    <a href="https://facebook.com/tcyoungphysicists" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://youtube.com/@tcyoungphysicists" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-links-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About</a></li>
+                        <li><a href="events.html"><i class="fas fa-chevron-right"></i> Events</a></li>
+                        <li><a href="team.html"><i class="fas fa-chevron-right"></i> Team</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links-column">
+                    <h3>Activities</h3>
+                    <ul>
+                        <li><a href="events.html#workshops"><i class="fas fa-chevron-right"></i> Workshops</a></li>
+                        <li><a href="events.html#research"><i class="fas fa-chevron-right"></i> Research</a></li>
+                        <li><a href="events.html#outreach"><i class="fas fa-chevron-right"></i> Outreach</a></li>
+                        <li><a href="events.html#conferences"><i class="fas fa-chevron-right"></i> Conferences</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-column">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="join.html"><i class="fas fa-chevron-right"></i> Join Us</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                        <li><a href="https://facebook.com/tcyoungphysicists" target="_blank"><i class="fas fa-chevron-right"></i> Facebook</a></li>
+                        <li><a href="https://youtube.com/@tcyoungphysicists" target="_blank"><i class="fas fa-chevron-right"></i> YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Tri-Chandra Young Physicists. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
