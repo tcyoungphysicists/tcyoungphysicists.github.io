@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="viewport" content="width=device-width, initial-scale=5.0">
     <meta name="description" content="Tri-Chandra Young Physicists (TCYP) - A community of physics enthusiasts fostering scientific research in Nepal">
     <meta name="keywords" content="TCYP, physics, Nepal, Tri-Chandra, research, students, science">
     <meta name="author" content="Tri-Chandra Young Physicists">
@@ -25,25 +25,27 @@
         <div class="header-content">
             <div class="logo">
                 <a href="index.html">
-                    <img src="logo.png" alt="TCYP Logo">
+                    <img src="Tri-Chandra Young Physicists - TCYP logo.svg" alt="TCYP Logo">
                 </a>
             </div>
-            <button class="mobile-menu-button" aria-label="Toggle menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <nav>
-                <ul>
-                    <li><a href="index.html" class="current-page">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="team.html">Team</a></li>
-                    <li><a href="join.html">Join</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+            
+            <nav id="main-nav" aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html" class="current-page" aria-current="page">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="mobile-menu-button" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
         </div>
+        
     </header>
     
     <section class="hero">
@@ -135,7 +137,7 @@
     <footer>
         <div class="footer-content">
             <div class="footer-logo">
-                <img src="logo.png" alt="TCYP Logo">
+                <img src="logo_w.png" alt="TCYP Logo">
                 <div class="footer-description">
                     Fostering a passion for physics and scientific research among students in Nepal since 2025.
                 </div>
