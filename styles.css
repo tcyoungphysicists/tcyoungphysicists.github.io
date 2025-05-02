@@ -50,10 +50,19 @@ header {
     }
 
 .logo img {
-    height: 100px;
+    height: 90px;
     width: auto;
     object-fit: contain;
+    touch-action: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
     }
+
+.logo a {
+    touch-action: none;
+    display: block;
+}
 
 nav ul {
     display: flex;
@@ -692,7 +701,7 @@ footer::before {
 }
 
 .day-card h3 {
-    color: var(--primary-color);
+    color: var (--primary-color);
     margin-bottom: 0.5rem;
 }
 
